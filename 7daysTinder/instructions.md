@@ -1,14 +1,19 @@
 # 1. Персонажи представлены как переменные:
 
-define mc = Character("MC")
-define v = Character("Василий")
-define k = Character("Кирилл")
-define m = Character("Марина")
+*define mc = Character("MC")
+*define v = Character("Василий")
+*define k = Character("Кирилл")
+*define m = Character("Марина")
 
 Если есть необходимость завести переменную по сюжету, где-то кто-то ранее не появлявшийся персонаж, говорит,
 то пишем в начале главы:
 
 define x = Character("отображаемое имя")
+
+Персонажи общаются так:
+
+*mc "Привет"
+*m "Привет!"
 
 # 2. Чтобы поменять фон, на котором находятся персоонажи, необходимо написать 
 
@@ -16,35 +21,36 @@ scene room_1
 
 Список используемых имен: (будет обновляться)
 
-cabinet_common (кабинет гг общий вид)
-cabinet_table (стол в кабинете)
-cabinet_board (доска с уликами в кабинете)
+*cabinet_common (кабинет гг общий вид)
+*cabinet_table (стол в кабинете)
+*cabinet_board (доска с уликами в кабинете)
 
 # 3. Когда персонаж появляется на экране необходимо написать его эмоцию и положение на экране:
 
 Список положений и функций: (будет пополняться)
 
-righter - справа
-lefter - слева
+*righter - справа
+*lefter - слева
 *по умолчанию персонаж стоит в центре
 * если необходимо добавить новую функцию, то опишите, что должен делать спрайт - прыгать, трястись и т.д.
 
 Список эмоций: (будет пополняться)
+Ссылка на папку с изображениями: https://github.com/AnastasiaAlekseeva204/AGILEproject/tree/main/7daysTinder/game/images
 
 Василий:
-vas_calm
-vas_smile
-vas_confused
-vas_frowned
-vas_surprised
+*vas_calm
+*vas_smile
+*vas_confused
+*vas_frowned
+*vas_surprised
 
 Кирилл:
 
-kir_calm
-kir_smile
-kir_frowned
-kir_surprised
-kir_maniac
+*kir_calm
+*kir_smile
+*kir_frowned
+*kir_surprised
+*kir_maniac
 
 ГГ: (добавить позже)
 
