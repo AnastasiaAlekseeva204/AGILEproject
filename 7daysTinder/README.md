@@ -1,3 +1,3 @@
-1. Download Renpy
-2. renpy.exe -> preferences -> general -> "projects directory" and put this folder
-3. Tinder7days will be in your active projects
+1. Скачать renpy, выбрать желаемый язык английский
+2. renpy.exe -> preferences -> general -> "projects directory" и добавить эту папку
+3. Tinder7days будет в active prjects
