@@ -2,9 +2,29 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 103: expected end of line
-    stop sound "large_busy_dance_music.mp3"
-               ^
+File "game/script.rpy", line 296: expected statement.
+    <<<<<<< HEAD
+                ^
+
+File "game/script.rpy", line 302: expected statement.
+    =======
+          ^
+
+File "game/script.rpy", line 305: expected statement.
+    >>>>>>> 632f0ad9fc51854d9b2e500ccc9d574e32fcfea7
+                                                    ^
+
+File "game/script.rpy", line 311: expected statement.
+    <<<<<<< HEAD
+                ^
+
+File "game/script.rpy", line 317: expected statement.
+    =======
+          ^
+
+File "game/script.rpy", line 322: expected statement.
+    >>>>>>> 632f0ad9fc51854d9b2e500ccc9d574e32fcfea7
+                                                    ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Thu Apr 24 09:00:35 2025
+Mon May 19 19:34:36 2025
