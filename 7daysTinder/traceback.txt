@@ -1,26 +1,26 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 385, in script
-    $ kir_love += 2
-  File "game/script.rpy", line 385, in <module>
-    $ kir_love += 2
+  File "game/script.rpy", line 391, in script
+    $ kir_love += 1
+  File "game/script.rpy", line 391, in <module>
+    $ kir_love += 1
 NameError: name 'kir_love' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 385, in script
-    $ kir_love += 2
-  File "C:\Users\Пользователь\OneDrive\Рабочий стол\renpy-8.3.7-sdk\renpy\ast.py", line 834, in execute
+  File "game/script.rpy", line 391, in script
+    $ kir_love += 1
+  File "C:\Users\HP\Desktop\renpy-8.3.7-sdk\renpy\ast.py", line 834, in execute
     renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
   File "C:\Users\Пользователь\OneDrive\Рабочий стол\renpy-8.3.7-sdk\renpy\python.py", line 1187, in py_exec_bytecode
     exec(bytecode, globals, locals)
-  File "game/script.rpy", line 385, in <module>
-    $ kir_love += 2
+  File "game/script.rpy", line 391, in <module>
+    $ kir_love += 1
 NameError: name 'kir_love' is not defined
 
 Windows-10-10.0.26100 AMD64
 Ren'Py 8.3.7.25031702
 7daysTinder 1.0
-Mon May 19 20:43:35 2025
+Mon May 19 19:46:28 2025
