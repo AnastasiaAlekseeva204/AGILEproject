@@ -1,40 +1,37 @@
-2025-05-19 16:34:35 UTC
+2025-05-19 16:36:07 UTC
 Windows-10-10.0.22631
 Ren'Py 8.3.7.25031702
 
 Early init took 0.05s
 Loading error handling took 0.02s
-Loading script took 0.11s
+Loading script took 0.15s
 Loading save slot metadata took 0.03s
 Loading persistent took 0.00s
-
-File "game/script.rpy", line 296: expected statement.
-    <<<<<<< HEAD
-                ^
-
-File "game/script.rpy", line 302: expected statement.
-    =======
-          ^
-
-File "game/script.rpy", line 305: expected statement.
-    >>>>>>> 632f0ad9fc51854d9b2e500ccc9d574e32fcfea7
-                                                    ^
-
-File "game/script.rpy", line 311: expected statement.
-    <<<<<<< HEAD
-                ^
-
-File "game/script.rpy", line 317: expected statement.
-    =======
-          ^
-
-File "game/script.rpy", line 322: expected statement.
-    >>>>>>> 632f0ad9fc51854d9b2e500ccc9d574e32fcfea7
-                                                    ^
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\HP\\AppData\\Roaming/RenPy/backups\\7daysTinder':
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
-Interface start took 0.89s
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 1.00s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1200)
@@ -46,3 +43,21 @@ Version: b'4.6.0 - Build 31.0.101.5186'
 Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1818, 1023) drawable=(1818, 1023)
 Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 391, in script
+    $ kir_love += 1
+  File "C:\Users\HP\Desktop\renpy-8.3.7-sdk\renpy\ast.py", line 834, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\HP\Desktop\renpy-8.3.7-sdk\renpy\python.py", line 1187, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script.rpy", line 391, in <module>
+    $ kir_love += 1
+NameError: name 'kir_love' is not defined
+
+While running game code:
+  File "game/script.rpy", line 391, in script
+    $ kir_love += 1
+  File "game/script.rpy", line 391, in <module>
+    $ kir_love += 1
+NameError: name 'kir_love' is not defined
