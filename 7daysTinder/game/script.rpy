@@ -110,10 +110,10 @@ label start:
     mc "Ну вот опять ты. Хорошо ради тебя попробую."
     m "Ты мне потом еще спасибо скажешь"
 
-# stop "large_busy_dance_music.mp3" 
+    # stop "large_busy_dance_music.mp3" 
     stop music
 
-# play "buzzing_lamp.mp3"
+    # play "buzzing_lamp.mp3"
     play music "buzzing_lamp.mp3" loop volume 0.3
     scene table_case
     show grain_overlay at old_tv
@@ -123,7 +123,7 @@ label start:
     mc "Я так давно не уделяла себе время..."
     "Девушка собрала вещи и направилась домой."
 
-# stop  "buzzing_lamp.mp3"
+    # stop  "buzzing_lamp.mp3"
     stop music
     jump ep1
 
@@ -188,8 +188,8 @@ label ep1:
     mc "Ладно мне завтра на работу. Спокойной ночи. В субботу в 12)"
     k "Сладких снов 😘" 
 
-# Уведомление от других (смахивает, потому что они ей не пара) 
-# Ложиться спать( время 4 часа утра) 
+    # Уведомление от других (смахивает, потому что они ей не пара) 
+    # Ложиться спать( время 4 часа утра) 
 
     scene tinder_mc with fade
     "После переписки с Кириллом [mc] мельком пролистала ещё несколько профилей. Всё казалось серым, неинтересным — как будто приложение выдохлось вместе с ней."
