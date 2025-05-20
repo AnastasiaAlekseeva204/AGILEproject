@@ -130,12 +130,17 @@ style namebox_label is say_label
 
 
 style window:
-    xalign 0.5
+    # xalign 0.5
+    xpos 402
+    xanchor 0
+
     xfill True
     yalign gui.textbox_yalign
     ysize gui.textbox_height
 
-    background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
+    background Image("gui/textbox_elegant.png")
+    # background Image("gui/textbox_elegant.png", xalign=0.5, yalign=1.0)
+    # background Transform("gui/textbox_elegant.png", xzoom=2.0, yzoom=2.0)
 
 style namebox:
     xpos gui.name_xpos
@@ -339,6 +344,7 @@ style navigation_button:
 
 style navigation_button_text:
     properties gui.text_properties("navigation_button")
+    xalign 0.5
 
 
 ## Main Menu screen ############################################################
