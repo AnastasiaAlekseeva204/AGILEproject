@@ -801,9 +801,9 @@ label ep3:
         jump save_police
     if love_kir < 5 and (trust_vas == 0 or love_vas == 1): #cпустя месяц заточения спас василий когда сам искал кирилла, вспомнил вас (гг не знала, что убийца кир)
         jump save_vas_no_romance
-    if trust_vas >= 2 and love_vas < 5 #спасла сразу полиция, на подмогу пришел василий, но вы не готовы к отношениям
+    if trust_vas >= 2 and love_vas < 5: #спасла сразу полиция, на подмогу пришел василий, но вы не готовы к отношениям
         jump save_police_vas
-    if love_vas == 5 #cпас василий, осталась с ваисилием
+    if love_vas == 5: #cпас василий, осталась с ваисилием
         jump love_vasiliy
 
     label death:

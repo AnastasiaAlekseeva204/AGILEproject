@@ -2,17 +2,21 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 490: expected statement.
-    love_vas += 2
+File "game/script.rpy", line 758: expected statement.
+    love_kir += 1
              ^
 
-File "game/script.rpy", line 491: expected statement.
-    trust_vas += 1
+File "game/script.rpy", line 797: end of line expected.
+    jump death:
               ^
 
-File "game/script.rpy", line 502: expected statement.
-    love_vas -= 1
-              ^
+File "game/script.rpy", line 804: reached end of line when expecting ':'.
+    if trust_vas >= 2 and love_vas < 5 
+                                       ^
+
+File "game/script.rpy", line 806: reached end of line when expecting ':'.
+    if love_vas == 5 
+                     ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Tue May 20 19:44:32 2025
+Thu May 22 22:18:18 2025
