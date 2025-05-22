@@ -1,22 +1,28 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 494, in script
-    v "Ты не пожалеешь. Обещаю."
-ScriptError: could not find label 'vasiliy_night'.
+  File "game/script.rpy", line 800, in script
+    if trust_kir >= 1 and love_kir == (2;4) and trust_vas < 2: #cпустя 2 месяца заточения спасла полиция (гг не знала, что убийца кир)
+SyntaxError: invalid syntax (game/script.rpy, line 800)
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 494, in script
-    v "Ты не пожалеешь. Обещаю."
-  File "C:\Users\HP\Desktop\renpy-8.3.7-sdk\renpy\ast.py", line 1712, in execute
-    rv = renpy.game.script.lookup(target)
-  File "C:\Users\HP\Desktop\renpy-8.3.7-sdk\renpy\script.py", line 1103, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'vasiliy_night'.
+  File "game/script.rpy", line 800, in script
+    if trust_kir >= 1 and love_kir == (2;4) and trust_vas < 2: #cпустя 2 месяца заточения спасла полиция (гг не знала, что убийца кир)
+  File "C:\Users\HP\Desktop\renpy-8.3.7-sdk\renpy\ast.py", line 1856, in execute
+    if renpy.python.py_eval(condition):
+  File "C:\Users\HP\Desktop\renpy-8.3.7-sdk\renpy\python.py", line 1216, in py_eval
+    code = py_compile(code, 'eval')
+  File "C:\Users\HP\Desktop\renpy-8.3.7-sdk\renpy\python.py", line 1153, in py_compile
+    raise e
+  File "C:\Users\HP\Desktop\renpy-8.3.7-sdk\renpy\python.py", line 1090, in py_compile
+    raise orig_e
+  File "C:\Users\HP\Desktop\renpy-8.3.7-sdk\renpy\python.py", line 1082, in py_compile
+    tree = compile(source, filename, py_mode, ast.PyCF_ONLY_AST | flags, 1)
+SyntaxError: invalid syntax (game/script.rpy, line 800)
 
 Windows-10-10.0.22631 AMD64
 Ren'Py 8.3.7.25031702
 7daysTinder 1.0
-Tue May 20 19:51:42 2025
+Thu May 22 22:41:58 2025
