@@ -1,14 +1,14 @@
-renpy.alpha renpy.texture
-renpy.geometry renpy.texture
-renpy.dissolve renpy.dissolve
-renpy.alpha renpy.geometry renpy.texture
-renpy.solid
-<<<<<<< HEAD
->>>>>>> 632f0ad9fc51854d9b2e500ccc9d574e32fcfea7
+>>>>>>> cb44c84b240e09097893bddeecfb215113953258
 renpy.geometry renpy.solid
-renpy.ftl
+renpy.dissolve renpy.dissolve
+=======
 renpy.dissolve renpy.geometry
 >>>>>>> b5dcaf9a3ecf583e846c0473df20e655056e6359
 renpy.texture
-=======
->>>>>>> cb44c84b240e09097893bddeecfb215113953258
+<<<<<<< HEAD
+renpy.geometry renpy.texture
+renpy.ftl
+renpy.alpha renpy.geometry renpy.texture
+renpy.alpha renpy.texture
+renpy.solid
+>>>>>>> 632f0ad9fc51854d9b2e500ccc9d574e32fcfea7

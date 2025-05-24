@@ -1,28 +1,24 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 824, in script
-    if love_kir < 5 and (trust_vas = 0 or trust_vas = 1 or (love_vas == 1 and trust_vas != 2)): #cпустя месяц заточения спас василий когда сам искал кирилла, вспомнил вас (гг не знала, что убийца кир)
-SyntaxError: invalid syntax (game/script.rpy, line 824)
+  File "game/script.rpy", line 1002, in script
+    vas "Прием. Какую еще девушку, мужики?"
+Exception: Sayer 'vas' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 824, in script
-    if love_kir < 5 and (trust_vas = 0 or trust_vas = 1 or (love_vas == 1 and trust_vas != 2)): #cпустя месяц заточения спас василий когда сам искал кирилла, вспомнил вас (гг не знала, что убийца кир)
-  File "C:\Users\HP\Desktop\renpy-8.3.7-sdk\renpy\ast.py", line 1856, in execute
-    if renpy.python.py_eval(condition):
-  File "C:\Users\HP\Desktop\renpy-8.3.7-sdk\renpy\python.py", line 1216, in py_eval
-    code = py_compile(code, 'eval')
-  File "C:\Users\HP\Desktop\renpy-8.3.7-sdk\renpy\python.py", line 1153, in py_compile
-    raise e
-  File "C:\Users\HP\Desktop\renpy-8.3.7-sdk\renpy\python.py", line 1090, in py_compile
-    raise orig_e
-  File "C:\Users\HP\Desktop\renpy-8.3.7-sdk\renpy\python.py", line 1082, in py_compile
-    tree = compile(source, filename, py_mode, ast.PyCF_ONLY_AST | flags, 1)
-SyntaxError: invalid syntax (game/script.rpy, line 824)
+  File "game/script.rpy", line 1002, in script
+    vas "Прием. Какую еще девушку, мужики?"
+  File "C:\Users\HP\Desktop\renpy-8.3.7-sdk\renpy\ast.py", line 2586, in execute
+    Say.execute(self)
+  File "C:\Users\HP\Desktop\renpy-8.3.7-sdk\renpy\ast.py", line 583, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\HP\Desktop\renpy-8.3.7-sdk\renpy\ast.py", line 472, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'vas' is not defined.
 
 Windows-10-10.0.22631 AMD64
 Ren'Py 8.3.7.25031702
 7daysTinder 1.0
-Fri May 23 12:35:09 2025
+Sat May 24 20:48:37 2025
